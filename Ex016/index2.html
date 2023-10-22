@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Classes e Elementos</title>
+    <link rel="stylesheet" href="styl.css">
+    <style>
+        body{
+            font-family: sans-serif;
+        }
+        a{
+            color: red;
+            font-weight: bold;
+        }
+        a:visited{
+            color: darkred;
+        }
+        a:hover{
+            color: black;
+            text-decoration: underline;
+        }
+        a:active{
+            color: yellow;
+            
+        }
+        div > p{
+            display: none;
+        }
+        div:hover > p{
+            display:block;
+            background-color: yellow;
+        }
+    </style>
+</head>
+<body>
+    <h1>Personalizando um link</h1>
+    <ul>
+        <li>
+            <p>Para ir no meu perfil do
+                <a href="https://github.com/Ghosthero1">Gugu no GitHub</a>
+            </p>
+        </li>
+        <li>
+            <p>Se quiser ver o meu perfil do LinkdIn
+                <a href="https://www.linkedin.com/in/gustavo-lima-97ba33292/" >Aqui</a></p>
+        </li>
+            <li>
+                <p>Um vídeo antigo
+                    <a href="https://www.youtube.com/watch?v=OR61mKaTRhw" class="especial" target="_blank" rel="external">Aqui</a>
+                </p>
+            </li>
+    </ul>
+    <h1>Conteúdo Especial</h1>
+    <div>
+        Passe o mouse aqui
+        <p>SURPRESA</p>
+    </div>
+    <p>Veja o conteúdo oculto</p>
+</body>
+</html>

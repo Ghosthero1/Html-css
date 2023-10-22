@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pseudo-classes em CSS</title>
+    <style>
+        div#d2{
+            display: inline-block;
+            background-color: lightgray;
+            border: 1px solid black;
+            text-align: center;
+            height: 200px;
+            width: 200px;
+        }
+        div#d1:hover{
+            background-color: yellow;
+        }
+        div > p{
+            display: none;
+        }
+        div:hover{
+            color: whitesmoke;
+        }
+        div:hover > p{
+            display: block;
+            color: white;
+            background-color: red;
+        }
+        
+    </style>
+</head>
+<body>
+    <h1>Exemplo de hover</h1>
+    <p>Passe o mouse sobre o texto abaixo</p>
+    <div>Passe o mouse aqui
+        <p>Texto escondido</p>
+    </div>
+    
+</body>
+</html>

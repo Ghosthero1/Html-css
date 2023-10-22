@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="Miranha-p.png" type="image/x-icon">
+    <title>Imagens Flexíveis</title>
+</head>
+<body>
+    <h1>Testando imagens</h1>
+    <picture>
+        <source media="(max-width: 750px)" srcset="miranha-p.png" type="image/png">
+        <source media="(max-width: 1050px)" srcset="miranha-m.png" type="image/png"> <!--É preciso de 3 imagens de tamanhos diferentes-->
+        <img src="miranha-g.png" alt="Funciona?">
+    </picture>
+    <h1>Aúdios</h1>
+    <p>Testando</p>
+    <audio src="midia/miranham.mp3" controls></audio><!--tipos de formatos:mpeg,ogg e wav-->
+   <audio preload="metadata" controls loop>
+    <source src="midia/miranham.mp3" type="audio/mpeg"><!--a tag source ajuda a introduzir outros formatos de áudio-->
+    <source src="midia/miranham.ogg" type="audio/ogg">
+    <source src="midia/miranham.wav" type="image/wav">
+    <p>Seu navegador não pega áudio, porém pode baixar o áudio <a href="midia/miranham.mp3" download="miranham.mp3" type="application/audio">por aqui em mp3</a></p>
+   </audio>
+<h1>Vídeos</h1>
+<video src="midia2/Miranhadnce.mp4" width="600" poster="spider.jfif" controls loop></video> 
+<video width="700" poster="hmiranha.png" controls>
+    <source src="midia2/Miranhafoto.mp4" type="video/mp4"> <!--Os formatos de vídeos são:MP4, WEBM e OGG-->
+    <source src="midia2/Miranhafoto.webm" type="video/webm">
+    <source src="midia2/Miranhafoto.ogg" type="video/ogg">
+    <p>Seu navegador não funciona os vídeos</p>
+</video>
+
+
+</body>
+</html>
