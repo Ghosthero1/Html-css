@@ -164,11 +164,9 @@ aside > p > a:after{
 footer{
     background-color: var(--cor5);
     color: white;
+    text-align: center
 }
 footer > a{
     color: white;
-}
-footer{
-    text-align: center;
 }
 
