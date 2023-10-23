@@ -30,17 +30,22 @@ header{
     height: auto;
     text-align: center;
     
+    
 }
 header > h1{
     font-family: var(--font1);
     color: var(--cor0);
-    font-size: 2.5em;
+    font-size: 3em;
+    margin-bottom: 30px;
 }
 header > p{
     color: var(--cor0);
+    max-width: 500px;
+    margin: auto;
 }
 nav{
     background-color: var(--cor3);
+    box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.452);
     
 }
 nav > a{
@@ -63,35 +68,45 @@ main{
     max-width: 930px;
     border-bottom-left-radius:10px;
     border-bottom-right-radius:10px;
+    box-shadow: 0px 3px 6px black;
 }
-article > h1,h2{
- font-family: var(--font2);
- color: var(--cor0);
- background-image: linear-gradient(to right, var(--cor3), transparent);
- text-indent: 10px;
+article > h2{
+    font-family: var(--font2);
+    color: var(--cor0);
+    background-image: linear-gradient(to right, var(--cor3), transparent);
+    text-indent: 10px;
+    font-size: 1.2em;
 }
 article h1{
     font-size: 1.5em;
+    font-family: var(--font2);
+    color: var(--cor4);
+    text-indent: 10px;
 }
-article h2{
-    font-size: 1.3em;
-}
+
 article > p{
     text-align: justify;
     text-indent: 20px;
     padding: 10px;
 }
-a{
+main a{
     text-decoration: none;
     color: var(--cor1);
+    
 }
-a::after{
+main a:hover{
+    text-decoration: underline;
+    color: var(--cor4);
+    background-color: var(--cor0);
+
+}
+main a::after{
     content: '\00a0\1F517';
 }
 .pequena{
-max-width: 350px;
-display: block;
-margin: auto;
+    max-width: 350px;
+    display: block;
+    margin: auto;
 }
 div{
     position: relative;
@@ -111,12 +126,18 @@ div > iframe{
 }
 aside{
     background-color: var(--cor2);
+    border-bottom-right-radius:10px;
+    border-bottom-left-radius:10px;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
 }
 aside > h3{
     background-color: var(--cor4);
     padding: 10px;
     margin-top: 30px;
     color: var(--cor0);
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
 }
 aside > ul{
     columns: 2;
@@ -128,6 +149,15 @@ footer{
     background-color: var(--cor4);
     text-align: center;
     margin-top: 10px;
+}
+footer a{
+    text-decoration: none;
+    color: var(--cor1);
+}
+footer a:hover{
+    text-decoration: dashed;
+    color: var(--cor4);
+    background-color: var(--cor0);
 }
 
 
