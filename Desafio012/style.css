@@ -24,11 +24,21 @@ header{
     font-family: 'Lilita One', sans-serif;
     font-weight: normal;
 }
+a{
+    color: white;
+    text-decoration: none;
+}
+a:hover{
+    background-color: white;
+    color: black;
+    text-decoration: underline;
+    transition-duration: 1s;
+    
+}
 main{
     font-family: 'Playpen Sans';
     font-weight: 400;
     background-color: white;
-    border: auto;
     padding: 10px;
     width: 534px;
     margin: auto;
@@ -38,6 +48,24 @@ aside{
     color: white;
     background-size: cover;
     background-repeat: no-repeat;
-    background-position:left center;
+    background-position:right center;
     padding: 100px;
+    position: relative;
+    height: 50vh;
+    
+   
+}
+aside > div > p{
+    position: absolute;
+}
+div > p{
+    background-color: rgba(240, 248, 255, 0.178);
+    position: absolute;
+    height: 200px;
+    width: 300px;
+    left: 10px;
+     
+}
+article > p{
+    padding: 10px;
 }
