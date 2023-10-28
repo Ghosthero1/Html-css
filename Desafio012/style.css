@@ -49,6 +49,7 @@ aside.img{
     background-size: cover;
     background-attachment: fixed;
     position: relative;
+    max-width: 100px;
     height: 1500px;
     width: 100vw;
     box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.767);
