@@ -4,81 +4,94 @@
 *{
    padding: 0%;
    margin: 0%;
+   font-size: 1em;
+}
+body{
+    display: block;
 }
 header{
+    font-family: 'Lilita one', sans-serif;
     background-color: black;
-    color: white;
     text-align: center;
-    padding: 42px;
+    color: white;
+    padding: 20px;
 }
-header > p{
-    font-size: 19px;
+header > h1{
+    font-size: 15vh;
+    color: white;
 }
-a{
+header > p >a{
     color: white;
     text-decoration: none;
 }
-a:hover{
-    color: white;
+header >p >a:hover{
     text-decoration: underline;
+    color: white;
 }
-h1{
-    font-family: 'Lilita One', sans-serif;
-    font-size: 10vw;
-}
-p{
+article{
+    text-indent: 10px;
     font-family: 'Sriracha', sans-serif;
-    font-size: 5vw;
+}
+article > p{
     padding: 20px;
 }
-aside{
+article > p{
+    font-size: 5vh;
+    margin-left:30px ;
+}
+aside#imagem1{
     background-image: url(imagens/background001.jpg);
-    background-color: aliceblue;
     background-position: right center;
+    background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
-    position: relative;
-    height: 1500px;
-    width: 100vw;
-    box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.767);
+    height: 500px;
+    width: 98vw;
 }
-aside.img{
+aside.img1 > p{
+    position: absolute;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.301);
+    font-size: 5vh;
+    margin-top: 110px; 
+    margin-left:30px;
+    width: 420px;
+}
+aside#imagem2{
     background-image: url(imagens/background002.jpg);
-    background-color: aliceblue;
     background-position: right center;
+}
+aside.img2{
+    background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
-    position: relative;
-    max-width: 100px;
-    height: 1500px;
-    width: 100vw;
-    box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.767);
+    height:500px;
+    width: 98vw;
 }
-aside.img > p{
+aside.img2 > p{
+    position: absolute;
     color: white;
-    background-color: rgba(0, 0, 0, 0.329);
-    width: 50vw;
-}
-div{
-    background-color: rgba(0, 0, 0, 0.308);
-    color: white;
-    width: 50vw;
-    
+    background-color: rgba(0, 0, 0, 0.301);
+    font-size: 5vh;
+    margin-top: 110px; 
+    margin-left:30px;
+    width: 420px;
 }
 footer{
     background-color: black;
     color: white;
-    padding: 10px;
-    font-size: 2em;
     text-align: center;
+    padding: 15px;
+    font-size: 25px;
 }
 footer > a{
     color: white;
     text-decoration: none;
 }
-footer >a:hover{
+footer > a:hover{
     text-decoration: underline;
-    color: black;
     background-color: white;
+    color: black;
     transition-duration: 1s;
+
 }
