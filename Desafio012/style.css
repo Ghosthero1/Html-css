@@ -1,71 +1,83 @@
 @charset "utf-8";
 @import url('https://fonts.googleapis.com/css2?family=Lilita+One&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Playpen+Sans:wght@300;400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Sriracha&display=swap');
 *{
    padding: 0%;
    margin: 0%;
 }
-body{
-    background-image: url(imagens/background002.jpg);
-    background-repeat: no-repeat;
-    background-position: left bottom;
-    background-size: cover;
-    background-attachment: fixed;
-
-}
 header{
-    padding-top: 20px;
-    padding-bottom: 35px;
     background-color: black;
-    margin: auto;
     color: white;
     text-align: center;
-    width: 556px;
-    font-family: 'Lilita One', sans-serif;
-    font-weight: normal;
+    padding: 42px;
+}
+header > p{
+    font-size: 19px;
 }
 a{
     color: white;
     text-decoration: none;
 }
 a:hover{
-    background-color: white;
-    color: black;
+    color: white;
     text-decoration: underline;
-    transition-duration: 1s;
-    
 }
-main{
-    font-family: 'Playpen Sans';
-    font-weight: 400;
-    background-color: white;
-    padding: 10px;
-    width: 534px;
-    margin: auto;
+h1{
+    font-family: 'Lilita One', sans-serif;
+    font-size: 10vw;
+}
+p{
+    font-family: 'Sriracha', sans-serif;
+    font-size: 5vw;
+    padding: 20px;
 }
 aside{
     background-image: url(imagens/background001.jpg);
-    color: white;
+    background-color: aliceblue;
+    background-position: right center;
     background-size: cover;
-    background-repeat: no-repeat;
-    background-position:right center;
-    padding: 100px;
+    background-attachment: fixed;
     position: relative;
-    height: 50vh;
+    height: 1500px;
+    width: 100vw;
+    box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.767);
+}
+aside.img{
+    background-image: url(imagens/background002.jpg);
+    background-color: aliceblue;
+    background-position: right center;
+    background-size: cover;
+    background-attachment: fixed;
+    position: relative;
+    height: 1500px;
+    width: 100vw;
+    box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.767);
+}
+aside.img > p{
+    color: white;
+    background-color: rgba(0, 0, 0, 0.329);
+    width: 50vw;
+}
+div{
+    background-color: rgba(0, 0, 0, 0.308);
+    color: white;
+    width: 50vw;
     
-   
 }
-aside > div > p{
-    position: absolute;
-}
-div > p{
-    background-color: rgba(240, 248, 255, 0.178);
-    position: absolute;
-    height: 200px;
-    width: 300px;
-    left: 10px;
-     
-}
-article > p{
+footer{
+    background-color: black;
+    color: white;
     padding: 10px;
+    font-size: 2em;
+    text-align: center;
+}
+footer > a{
+    color: white;
+    text-decoration: none;
+}
+footer >a:hover{
+    text-decoration: underline;
+    color: black;
+    background-color: white;
+    transition-duration: 1s;
 }
