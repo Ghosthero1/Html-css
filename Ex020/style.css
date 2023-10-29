@@ -13,11 +13,16 @@ table{
 }
 th{
     border: 1px solid black;
+    padding: 6px;
 }
 td{
     border: 1px solid black;
     padding: 10px;
 }
-div{
-    display: inline;
+.linha1{
+    display: inline-table;
 }
+.linha2{
+    display: inline-table;
+}
+
