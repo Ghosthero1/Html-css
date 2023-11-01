@@ -4,96 +4,68 @@
 *{
    padding: 0%;
    margin: 0%;
-   font-size: 1em;
 }
 html, body{
     min-height: 100vh;
+    background-color: lightgray;
+}
+body{
+    background-color: lightgray;
 }
 header{
-    font-family: 'Lilita one', sans-serif;
     background-color: black;
-    text-align: center;
-    color: white;
-    padding: 20px;
 }
 header > h1{
-    font-size: 15vh;
     color: white;
+    text-align: center;
+    font-size: 10vw;
+    font-family: 'Lilita One', cursive;
 }
-header > p >a{
+header > p{
     color: white;
-    text-decoration: none;
+    text-align: center;
 }
-header >p >a:hover{
+a{
+  color: white;
+  text-decoration: none;
+}
+a:hover{
+    background-color: white;
+    color: black;
     text-decoration: underline;
-    color: white;
+    transition-duration: 1s;
 }
-article{
-    text-indent: 10px;
-    font-family: 'Sriracha', sans-serif;
+p{
+    font-family: 'Sriracha', cursive;
+    font-size: 4.5vw;
+    line-height: 2em;
 }
-article > p{
-    padding: 20px;
+aside{
+    padding-top: 10vh;
+    padding-bottom: 10vh;
 }
-article > p{
-    font-size: 5vh;
-    margin-left:30px ;
-}
-aside#imagem1{
+#imagem1{
     background-image: url(imagens/background001.jpg);
-    background-position: right center;
     background-repeat: no-repeat;
-    background-size: cover;
-    background-attachment: fixed;
-    height: 500px;
-    width: 98vw;
 }
-aside.img1 > p{
-    position: absolute;
+#imagem2{
+background-image: url(imagens/background002.jpg);
+background-repeat: no-repeat;
+}
+.img{
+background-position: right center;
+background-size: cover;
+background-attachment: fixed;
+}
+aside.img >p{
     color: white;
-    background-color: rgba(0, 0, 0, 0.301);
-    font-size: 5vh;
-    margin-top: 110px; 
-    margin-left:30px;
+    background-color: rgba(0, 0, 0, 0.137);
     display: inline-block;
-    padding-right: 30px;
-}
-aside#imagem2{
-    background-image: url(imagens/background002.jpg);
-    background-position: right center;
-}
-aside.img2{
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-attachment: fixed;
-    height:500px;
-    width: 98vw;
-}
-aside.img2 > p{
-    position: absolute;
-    color: white;
-    background-color: rgba(0, 0, 0, 0.301);
-    font-size: 5vh;
-    margin-top: 110px; 
-    margin-left:30px;
-    display: inline-block;
-    padding-right: 30px;
+    padding-right: 20px;
 }
 footer{
     background-color: black;
-    color: white;
     text-align: center;
-    padding: 15px;
-    font-size: 25px;
-}
-footer > a{
     color: white;
-    text-decoration: none;
-}
-footer > a:hover{
-    text-decoration: underline;
-    background-color: white;
-    color: black;
-    transition-duration: 1s;
-
+    font-size: 2em;
 }
