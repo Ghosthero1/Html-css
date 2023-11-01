@@ -39,6 +39,8 @@ p{
     font-family: 'Sriracha', cursive;
     font-size: 4.5vw;
     line-height: 2em;
+    text-indent: 20px;
+    padding-left: 30px;
 }
 aside{
     padding-top: 10vh;
