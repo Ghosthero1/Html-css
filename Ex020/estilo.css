@@ -4,9 +4,15 @@
     margin: 0;
     font-size: 14px;
 }
+table{
+    border-collapse: collapse;
+}
 td{
     font-size:26px;
 }
 p{
     border: 1px solid black;
+}
+p > span{
+    
 }
