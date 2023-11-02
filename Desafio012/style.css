@@ -14,7 +14,7 @@ body{
     position: relative;
 }
 header{
-    background-color: black;
+    background-color: black; 
 }
 header > h1{
     color: white;
