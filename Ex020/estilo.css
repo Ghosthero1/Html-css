@@ -7,12 +7,9 @@
 table{
     border-collapse: collapse;
 }
+
 tr{
     position: relative;
-    
-}
-td{
-  
     
 }
 .sl{
@@ -25,5 +22,9 @@ td{
 }
 p{
   
-white-space-collapse: ;
+word-break: normal ;
+}
+p{
+    display: flex;
+    word-break: normal;
 }
