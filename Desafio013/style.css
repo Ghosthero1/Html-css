@@ -4,6 +4,10 @@
     margin: 0px;
     font-family: Arial, Helvetica, sans-serif;
 }
+::-webkit-scrollbar{
+    width: 0px;
+    height: 0px;
+}
 html,body{
     background-color: black;
     height: 100vh;
@@ -55,4 +59,18 @@ a{
     border: 1px solid rgba(0, 0, 0, 0.432);
     transform: translate(-3px, -3px);
     transition: 1s;
+}
+img{
+    width:100vw;
+}
+.botao{
+display: block;
+background-color: darkblue;
+color: white;
+text-align: center;
+text-decoration: none;
+padding: 17px;
+}
+.botao:hover{
+background-color: blue;
 }
