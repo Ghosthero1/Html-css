@@ -7,9 +7,21 @@
 </head>
 <body>
     <h1>Exemplo de Fromulários</h1>
-    <form action="cadastro.php" method="get">
+    <form action="cadastro.php" method="post">
         <fieldset>
-            <legend></legend>
+            <legend>Test</legend>
+            <p>
+                <label for="icor">Cor:</label>
+                <input type="color" name="cor" id="icor">
+            </p>
+            <p>
+                <label for="iran">Nível de satisfação</label>
+                <input type="range" name="ran" id="iran" min="1" max="5">
+            </p>
+            <p>
+                <label for="ifot">Foto</label>
+                <input type="file" name="fot" id="ifot">
+            </p>
         </fieldset>
     </form>
 
