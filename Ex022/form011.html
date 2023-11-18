@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulários</title>
+    <style>
+        *{
+            padding: 1px;
+            margin: 1px;
+        }
+        h1{
+            text-align: center;
+        }
+       form{
+        display: flex;
+       }
+    </style>
+</head>
+<body>
+    <h1>Testando Formulários</h1>
+   <form action="cadastro.php" method="post" autocomplete="on">
+    <fieldset>
+        <legend>Dados Pessoais</legend>
+        <div>
+            <label for="inome">Nome:</label>
+            <input type="text" name="nome" id="inome" autocomplete="name" minlength="8" maxlength="20" required>
+        
+        
+            <label for="iage">Idade:</label>
+            <input type="number" name="age" id="iage" min="16" max="75" required>
+        </div>
+    
+           <div> <label for="iemail">Email:</label>
+            <input type="text" name="email" id="iemail" autocomplete="email" required>
+        
+    
+            <label for="iest">Estado:</label>
+            <select name="estado" id="iest"> 
+                    <option value="">Betim</option>
+                    <option value="">Ibirité</option>
+                    <option value="">Sabará</option>
+                    <option value="">Belo Horizonte</option>
+            
+            </select>
+        
+    </div>
+    <div>
+            <input type="submit" value="Enviar">
+            <input type="reset" value="Limpar">
+        </div>
+    </fieldset>
+   </form>
+</body>
+</html>
