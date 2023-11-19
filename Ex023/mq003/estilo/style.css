@@ -1,0 +1,8 @@
+@charset "utf-8";
+
+/*Portrait*/
+
+body{
+    background:blue url(cev-portrait.jpg) no-repeat center bottom fixed;
+    background-size: cover;
+}

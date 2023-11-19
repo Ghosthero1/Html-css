@@ -1,0 +1,8 @@
+@charset "utf-8";
+
+/*Landscape*/
+
+body{
+    background:orange url(cev-landscape.jpg) no-repeat center bottom fixed;
+    background-size:cover ;
+}
